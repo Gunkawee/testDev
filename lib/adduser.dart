@@ -24,8 +24,6 @@ class _adduserState extends State<adduser> {
       ),
       body: SafeArea(
         child: Container(
-          height: double.infinity,
-          width: double.infinity,
           child: SingleChildScrollView(
               padding: const EdgeInsets.only(left: 200, right: 200, top: 30),
               child: Form(
