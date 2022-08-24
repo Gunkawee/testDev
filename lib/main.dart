@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:usermanage/adduser.dart';
+
+import 'package:usermanage/firstpage.dart';
 
 void main() {
   runApp(const MyApp());
@@ -25,7 +26,7 @@ class MyApp extends StatelessWidget {
           // is not restarted.
           primarySwatch: Colors.blue,
         ),
-        home: adduser());
+        home: firstpage());
   }
 }
 
